@@ -1,0 +1,46 @@
+{
+    "name": "kenarkose/files",
+    "description": "Easy media management for Laravel 5",
+    "license": "MIT",
+    "keywords": [
+        "kenarkose",
+        "files",
+        "media",
+        "management",
+        "laravel",
+        "laravel5"
+    ],
+    "version": "2.0.4",
+    "authors": [
+        {
+            "name": "Hyleeh",
+            "email": "egemen@kenarkose.com",
+            "homepage": "http://egemenkizilcan.com",
+            "role": "Developer / Designer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laracasts/presenter": "0.2.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.1",
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reactor\\Files\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    },
+    "suggest": {
+        "laravel/framework": "This package requires Laravel 5.",
+        "kenarkose/transit": "Easy file upload and download for Laravel 5.",
+        "kenarkose/ownable": "Allows ownership for Eloquent models on Laravel 5."
+    }
+}
