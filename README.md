@@ -56,7 +56,7 @@ Installing Files is simple.
 Files plays well with its sibling packages:
 
 - [Ownable](https://github.com/kenarkose/Ownable) Easy ownership for Eloquent Models.
-- [Transit](https://github.com/kenarkose/Transit) Easy file uploading and downloading.
+- [Transit](https://github.com/infolinematrix/Transit) Easy file uploading and downloading.
 
 Please check the package documentations to implement the functionality.
 
